@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.productBox{
+    text-align: center;
+    padding: 0.8rem;
+    width: 8rem;
+    margin: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.productBox h2{
+    font-size: 1.2rem;
+}
+
+.productBox img{
+    width: 8rem;
+}
+
