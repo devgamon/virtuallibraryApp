@@ -14,10 +14,10 @@
                 mode: 'cors',
                 cache: 'default'
             })  .then(response => {response.json()
-            .then(data => {
+              .then(data => {
                 console.log(data);
               if(data.erro){
-                    alert("UsuÃ¡rio e/ou senha invÃ¡lidos");
+                    alert("Usuário e/ou senha inválidos!");
                 }else{
                   alert(data.dados.nome);
                   location.href = "acervo.html";
